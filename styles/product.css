@@ -1,0 +1,344 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  height: 120px;
+}
+.site-header a {
+  color: #ffffff;
+  transition: color .15s ease-in-out;
+  background-color: #323232;
+  height: 40px;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: color .15s ease-in-out;
+  background-color: #6b8e23;
+}
+
+.boton {
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.display-5 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+h4.display-5 {
+  font-size: 30px;
+}
+
+footer {
+  background-color: #323232;
+  color: #cccccc;
+}
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #6b8e23;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/*original*/
+
+/*diseño mobile*/
+
+.destacada {
+  object-fit: cover;
+  width: 100%;
+
+}
+.principal{
+  object-fit: cover;
+  background: transparent url(../images/3lamparita.jpg.jpg) no-repeat;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: -1; 
+}
+
+
+.contenido {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 0 80px;
+}
+
+.diapositiva {
+  float: left;
+  width: 55%;
+  margin-right: 30px;
+}
+
+.diapositiva img {
+  width: 600px;
+  padding: auto;
+}
+
+h1.title  {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 45px;
+  text-align: center;
+}
+
+.descripcion h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.descripcion h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.descripcion p {
+  font-size: 16px;
+  line-height: 30px;
+  }
+
+.copyright {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(51, 51, 51);
+  padding: 20px;
+}
+.clear {
+  clear: both;
+}
+
+.formulario{
+  height: 550px;
+  display:block;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.formulario ul li{
+  list-style: none;
+  line-height: 1.5;
+}
+.datos{
+  color: rgb(10, 10, 10);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  height: 50px;
+  text-align:initial;    
+  
+}
+.caract{
+  width: 100%;
+  border: none;
+  background: #eaeaea;
+  height: 40px;
+}
+.caract2{
+  background: #323232;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+}
+.caract2:hover{
+  background-color: rgb(0, 128, 0);
+  border: none;
+}
+.grid-caja img{
+  width: 200px;
+}
+.sm{
+  margin-top: 0;
+}
+.sm.txt{
+  text-align: center;
+
+  
+}
+.parrafo{
+  text-align:center;
+}
+
+/*flex*/
+.contenido-flex {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+  
+.columna-flexbox {
+  width:50%;
+  padding: 10px;
+
+}
+.columna-flexbox:first-child{
+  margin-right: 20px;
+}
+
+/*grids*/
+.grid-caja{
+  display: grid;
+  grid-template-columns: 40% 60% ;
+}
+
+
+
+.espacio{
+  margin-top: 0%;
+}
+
+
+/*galeria*/
+.container{
+  column-count: 4;
+  column-gap: 10px;
+
+}
+.container img{
+  max-width: 100%;
+  display: block;
+}
+figure{
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  transition: trasform .2s;
+}
+figure img{
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+/*ejemplo hover*/
+
+figure:hover{
+  transform: scale(1.5);
+}
+
+/*fin de diseño mobile*/
+
+/*diseño para tablet*/
+@media screen and (min-with: 600px){
+  
+}
+
+
+
+
+/*diseño desktop*/
+@media screen and (min-with: 1200px){
+  
+}
